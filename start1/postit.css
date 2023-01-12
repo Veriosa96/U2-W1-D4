@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(102, 102, 102);
+    line-height: 3em;
+
+}
+
+body main {
+    display: flex;
+    font-family: "Indie Flower", cursive;
+    flex-wrap: wrap;
+    justify-content:space-around;    
+    
+}
+
+main {
+    padding: 100px 150px;
+    
+}
+
+
+.postit-1{  /* task 1 */
+    height: 200px;
+    width: 250px;
+    background-color: rgb(251, 251, 201) 
+}
+
+.postit-2{
+    height: 200px;
+    width: 250px;
+    background-color: rgb(211, 248, 207);
+}
+
+.postit-3 {
+    height: 200px;
+    width: 250px;
+    background-color: rgb(198, 197, 237);
+}
+
+
+/* ---------------------------------------------------- */
+.postit-1
+{
+    background: linear-gradient( 0deg, rgba(189, 189, 163, 1) 0%, rgba(251, 251, 201, 1) 100%);
+
+}
+
+.postit-2{
+    background: linear-gradient( 0deg, rgba(158, 182, 160, 1) 0%, rgba(211, 248, 207, 1) 100%);
+}
+
+.postit-3{
+    background: linear-gradient( 0deg, rgb(138, 140, 153) 0%, rgb(198, 197, 237) 100%);
+}
+
+
+/* ----------------------------------------------------- */
+
+main div{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    font-size: x-large;
+    margin-bottom: 60px;
+}
+
+main div h2{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+/* ----------------------------------------------------- */
+
+.postit-1{
+    transform: rotate(-10deg);
+}
+
+.postit-1:hover {
+   transform: scale(1.2) ;
+
+}
+
+.postit-2{
+    transform: rotate(8deg);
+}
+
+.postit-2:hover {
+   transform: scale(1.2) ;
+
+}
+
+.postit-3{
+    transform: rotate(-13deg);
+}
+
+.postit-3:hover {
+   transform: scale(1.2) ;
+
+}
+
+
+
+
+
+
